@@ -44,7 +44,6 @@ public class CustomerMain {
         }
 
 
-
         var dailyReceipts2 = new ArrayList<Receipt>();
         dailyReceipts2.add(new Receipt("Caglar Cercinli", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice"}));
         dailyReceipts2.add(new Receipt("Haluk Dogan", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice", "Smartphone X"}));

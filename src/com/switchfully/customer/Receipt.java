@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Receipt {
     private final String name;
     private final String[] products;
-    private int score=0;
+    private int score = 0;
 
     public Receipt(String name, String[] products) {
         this.name = name;
