@@ -11,6 +11,7 @@ public class CustomerMain {
         var ListOfMonthlyNamesAndScores = new HashMap<String, Integer>();
         var scanner = new Scanner(System.in);
 //Deneme
+        //Caglar deneme
         var dailyReceipts1 = new ArrayList<Receipt>();
         dailyReceipts1.add(new Receipt("Jane Janukova", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas"}));
         dailyReceipts1.add(new Receipt("Jane Janukova", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "bananas", "Smartphone X"}));
