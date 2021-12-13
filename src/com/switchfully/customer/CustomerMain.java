@@ -10,11 +10,7 @@ public class CustomerMain {
         var ListOfDailyNamesAndScores = new HashMap<String, Integer>();
         var ListOfMonthlyNamesAndScores = new HashMap<String, Integer>();
         var scanner = new Scanner(System.in);
-//Deneme
-        //Caglar deneme
-        //Haluk deneme 15
-        //Haluk deneme 16
-        //Haluk deneme 17
+
         var dailyReceipts1 = new ArrayList<Receipt>();
         dailyReceipts1.add(new Receipt("Jane Janukova", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas"}));
         dailyReceipts1.add(new Receipt("Jane Janukova", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "bananas", "Smartphone X"}));
@@ -24,7 +20,7 @@ public class CustomerMain {
 
         dailyReceipts1.removeIf(receipt -> receipt.getName().isEmpty());
         dailyReceipts1.forEach(receipt -> ListOfDailyNamesAndScores.merge(receipt.getName(), receipt.getScore(), Integer::sum));
-        //Caglar deneme 26
+
         System.out.println("\nCustomer-of-the-day Report | Date of generation:" + date + "\nCustomer | Score");
         ListOfDailyNamesAndScores.entrySet()
                 .stream()
