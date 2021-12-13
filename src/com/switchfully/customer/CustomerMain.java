@@ -23,7 +23,7 @@ public class CustomerMain {
 
         dailyReceipts1.removeIf(receipt -> receipt.getName().isEmpty());
         dailyReceipts1.forEach(receipt -> ListOfDailyNamesAndScores.merge(receipt.getName(), receipt.getScore(), Integer::sum));
-
+        //Caglar deneme 26
         System.out.println("\nCustomer-of-the-day Report | Date of generation:" + date + "\nCustomer | Score");
         ListOfDailyNamesAndScores.entrySet()
                 .stream()
