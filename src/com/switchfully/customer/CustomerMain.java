@@ -38,6 +38,7 @@ public class CustomerMain {
                         .stream()
                         .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                         .forEach(System.out::println);
+                ListOfMonthlyNamesAndScores.clear();
             } else {
                 System.out.println("You have to wait until the end of the month!");
             }
@@ -70,6 +71,7 @@ public class CustomerMain {
                         .stream()
                         .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                         .forEach(System.out::println);
+                ListOfMonthlyNamesAndScores.clear();
             } else {
                 System.out.println("You have to wait until the end of the month!");
             }
