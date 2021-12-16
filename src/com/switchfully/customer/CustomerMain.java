@@ -15,7 +15,7 @@ public class CustomerMain {
         dailyReceipts1.add(new Receipt("Jane Janukova", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas"}));
         dailyReceipts1.add(new Receipt("Jane Janukova", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "bananas", "Smartphone X"}));
         dailyReceipts1.add(new Receipt("Haluk Dogan", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas"}));
-        dailyReceipts1.add(new Receipt("Caglar Cercinli", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "Smartphone X"}));
+        dailyReceipts1.add(new Receipt("Ferhat Dogan", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "Smartphone X"}));
         dailyReceipts1.add(new Receipt("", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice"}));
 
         dailyReceipts1.removeIf(receipt -> receipt.getName().isEmpty());
@@ -46,7 +46,7 @@ public class CustomerMain {
 
 
         var dailyReceipts2 = new ArrayList<Receipt>();
-        dailyReceipts2.add(new Receipt("Caglar Cercinli", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice"}));
+        dailyReceipts2.add(new Receipt("Ferhat Dogan", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice"}));
         dailyReceipts2.add(new Receipt("Haluk Dogan", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice", "Smartphone X"}));
         dailyReceipts2.add(new Receipt("Jane Janukova", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice", "cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice"}));
         dailyReceipts2.add(new Receipt("Jane Janukova", new String[]{"cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice", "cheese", "bread", "tomatoes", "chocolate", "water", "book", "jam", "flowers", "bananas", "apples", "juice", "Smartphone X"}));
